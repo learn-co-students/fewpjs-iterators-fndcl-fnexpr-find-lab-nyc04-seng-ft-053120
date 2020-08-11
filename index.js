@@ -13,6 +13,6 @@ function testFunc() {
 // Run the tests using learn.
 
 const superbowlWin = (objArray) => {
-  const winningObj = objArray.find((obj) => obj.result === "W");
+  const winningObj = objArray.find(obj => obj.result === "W");
   return (winningObj ? winningObj.year : undefined)
 };
