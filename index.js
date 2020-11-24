@@ -5,5 +5,7 @@ function testFunc() {
 }
 
 function superbowlWin(games) {
+  let answer = games.find(game => (game.result === "W"));
 
 } 
+
